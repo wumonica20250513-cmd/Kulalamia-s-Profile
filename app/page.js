@@ -5,19 +5,20 @@ export default function Home() {
     <div className="text-center">
       {/* 標語 */}
       <section
-  className="relative bg-gray-900 text-white py-16 bg-center bg-cover"
-  style={{ backgroundImage: "url('/images/喵+簽名.png')" }}
->
-  {/* 半透明遮罩（讓文字更清楚） */}
-  <div className="absolute inset-0 bg-black/40"></div>
+        className="relative bg-gray-900 text-white py-16 bg-center bg-cover"
+        style={{ backgroundImage: "url('/images/喵+簽名.png')" }}
+      >
+        {/* 半透明遮罩（讓文字更清楚） */}
+        <div className="absolute inset-0 bg-black/40"></div>
 
-  {/* 內容 */}
-  <div className="relative z-10">
-    <h1 className="text-3xl md:text-4xl font-bold">
-      從克拉拉星來的星際迷航者
-    </h1>
-  </div>
-</section>
+        {/* 內容 */}
+        <div className="relative z-10">
+          <h1 className="text-3xl md:text-4xl font-bold">
+            從克拉拉星來的星際迷航者
+          </h1>
+        </div>
+      </section>
+
       {/* 角色展示 */}
       <section className="py-16 bg-white text-gray-900">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
@@ -100,7 +101,7 @@ export default function Home() {
           Kulala. Mia TW - 克拉拉米亞 #日常廣播系 + 無厘頭系 + 健忘系 Vtuber <br />
           Personality: College student from Kulala planet. I like singing and delicious food. <br />
           Languages: Mandarin Chinese, English and I am learning Japanese. <br />
-          My nickname is Mia. I call my fans "Duo Duo" (A drink brand in TW), because I like DUO DUO.
+          My nickname is Mia. I call my fans &quot;Duo Duo&quot; (A drink brand in TW), because I like DUO DUO.
         </p>
       </section>
     </div>
