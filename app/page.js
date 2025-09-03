@@ -6,7 +6,7 @@ export default function Home() {
       {/* 標語 */}
       <section
         className="relative bg-gray-900 text-white py-16 bg-center bg-cover"
-        style={{ backgroundImage: "url('/images/喵+簽名.png')" }}
+        style={{ backgroundImage: "url('/images/喵-簽名.png')" }}
       >
         {/* 半透明遮罩（讓文字更清楚） */}
         <div className="absolute inset-0 bg-black/40"></div>
